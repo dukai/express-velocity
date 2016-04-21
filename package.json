@@ -1,0 +1,27 @@
+{
+  "name": "express-velocity-engine",
+  "version": "1.0.0",
+  "description": "A velocity engine wrapper for express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dukai@github.com/dukai/express-velocity.git"
+  },
+  "keywords": [
+    "velocity",
+    "express"
+  ],
+  "author": "dk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukai/express-velocity/issues"
+  },
+  "homepage": "https://github.com/dukai/express-velocity#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "velocity": "^0.7.2"
+  }
+}
