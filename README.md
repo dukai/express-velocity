@@ -1,4 +1,4 @@
-# express-velocity
+# express velocity engine
 A velocity template engine wrapper for express
 ```` javascript
 var engines = require('express-velocity-engine');
