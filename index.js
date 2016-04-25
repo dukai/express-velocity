@@ -156,7 +156,7 @@ exports.vm = fromStringRenderer('vm');
 
 exports.vm.render = function(str, options, fn){
   return promisify(fn, function (fn) {
-    var engine = requires.vm || (requires.vm = new Engine({template: str}));
+    var engine = requires.vm || (requires.vm = new Engine({template: str, root: options.settings.views}));
     try {
       fn(null, engine.render(options));
     } catch (err) {
